@@ -25,8 +25,8 @@ const Home = () => {
     const [userContext, setUserContext] = useState<IGetUserContextResponse | null>(null);
     const [joinUrl, setJoinUrl] = useState<IGetMeetingJoinUrlResponse | null>(null);
     const [error, setError] = useState<string | null>(null);
-    const zoomCompanionReverseProxy = 'import.meta.env.VITE_ZOOM_COMPANION_REVERSE_PROXY';
-    const zoomCompanionBotServiceContext = 'import.meta.env.VITE_ZOOM_COMPANION_BOT_SERVICE_CONTEXT';
+    const zoomCompanionReverseProxy = import.meta.env.VITE_ZOOM_COMPANION_REVERSE_PROXY;
+    const zoomCompanionBotServiceContext = import.meta.env.VITE_ZOOM_COMPANION_BOT_SERVICE_CONTEXT;
 
     useEffect(() => {
         configureSdk()

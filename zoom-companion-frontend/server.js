@@ -19,22 +19,6 @@ app.use((req, res, next) => {
 });
 
 app.use(
-    '/api/auth',
-    createProxyMiddleware({
-        target: 'http://localhost:5000/api/auth',
-        changeOrigin: true,
-    })
-);
-
-app.use(
-    '/api/zoom',
-    createProxyMiddleware({
-        target: 'http://localhost:5001/api/zoom',
-        changeOrigin: true,
-    })
-);
-
-app.use(
     '/api/bot',
     createProxyMiddleware({
         target: 'http://localhost:5002/api/bot',
@@ -45,13 +29,13 @@ app.use(
 app.use(
     '/',
     createProxyMiddleware({
-        target: 'http://localhost:5173',
+        target: 'http://localhost:3000',
         changeOrigin: true,
         ws: true
     })
 );
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
     console.log(`Secure proxy running at http://localhost:${PORT}`);
 });

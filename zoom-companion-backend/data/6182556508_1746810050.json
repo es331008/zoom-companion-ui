@@ -1,0 +1,21 @@
+{
+    "chatHistory": [
+        {
+            "message": "Hi everyone! I'm Meeting Bot, a virtual assistant here to help monitor and support today's session. I'm not a real participant, but I'm here to observe, take notes, or assist with automated tasks if needed. Let me know if there's anything you'd like me to pass along!",
+            "receiverId": 0,
+            "senderId": 16781312,
+            "senderName": "Meeting Bot",
+            "timestamp": "1746809992"
+        },
+        {
+            "message": "I need to schedule a meeting with Sam",
+            "receiverId": 0,
+            "senderId": 16778240,
+            "senderName": "Evan Sorger",
+            "timestamp": "1746810040"
+        }
+    ],
+    "meetingNumber": "6182556508",
+    "meetingSummary": "The meeting was a demonstration of a meeting bot's capabilities, including real-time voice transcription and chat capture. The bot uses cloud technology to transcribe speech and records chat messages during the meeting, as shown by Evan's test message to schedule a meeting with Sam.\n\nAction Items:\n*   Schedule a meeting with Sam (assignee: Evan Sorger)\n",
+    "meetingTopic": "Evan Sorger's Personal Meeting Room"
+}

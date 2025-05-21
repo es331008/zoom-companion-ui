@@ -1,0 +1,39 @@
+# ===========================
+# Node (React frontend)
+# ===========================
+/zoom-companion-frontend/node_modules
+/zoom-companion-frontend/dist
+/zoom-companion-frontend/.vite
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env
+/zoom-companion-frontend/.env*
+
+# ===========================
+# Python (Flask backend)
+# ===========================
+/zoom-companion-backend/__pycache__/
+/zoom-companion-backend/*.py[cod]
+/zoom-companion-backend/venv/
+/zoom-companion-backend/.env
+/zoom-companion-backend/static
+
+# Flask default database or runtime files
+/zoom-companion-backend/instance/
+/zoom-companion-backend/*.db
+/zoom-companion-backend/.flaskenv
+
+# ===========================
+# Common
+# ===========================
+.DS_Store
+*.log
+*.sqlite3
+.env
+.env.*
+.idea
+*.iml
